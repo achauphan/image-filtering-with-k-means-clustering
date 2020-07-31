@@ -13,6 +13,5 @@ The starting value of each k cluster is determined randomly. Once the first cycl
 Image color filtering is implemented by having k representing the amount of colors to be had from the original image (big numbers take longer to filter). Each cluster will then have a random r,g,b value assigned and each pixel position of the image is assigned to the cluster that is the closes to in r,g,b value. This is repeated until the cluster values do not change. After the cluster values are finalized and each cluster contains the pixel positions of that most represent the cluster color value, the imagine is then reconstructed with each pixel representing the color value of the cluster it was assigned to.
 
 ### Filtering Progression Example of k = 3
-Original
 ![x](https://i.imgur.com/HJJ0Hgj.png)
 ![x](https://media0.giphy.com/media/Mb4qsTqblEdZKv7Y3r/giphy.gif)
