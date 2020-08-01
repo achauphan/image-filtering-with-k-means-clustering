@@ -15,7 +15,7 @@ Image color filtering is implemented by having k representing the amount of colo
 ### Filtering Progression Example of k = 4
 ![x](https://i.imgur.com/HJJ0Hgj.png) ![x](https://media0.giphy.com/media/Mb4qsTqblEdZKv7Y3r/giphy.gif)
 
-Top image is the input image as a ppm file (ppm was easy to build and read). Bottom gif is a visualization of each pixel's corresponding k cluster color after every loop until the loop is finished.
+Top image is the input image as a ppm file (ppm was easy to build and read). Bottom gif is a visualization of each pixel's corresponding k cluster color after every loop until the clusters are finalized.
 
 ## What I learned
 - Given a description of an algorithm and scenario, interpret and attempt to write a *solution.
